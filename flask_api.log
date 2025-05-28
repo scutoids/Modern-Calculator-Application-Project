@@ -1,0 +1,129 @@
+2025-04-28 01:19:11,439 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.153:5000
+2025-04-28 01:19:11,439 INFO: [33mPress CTRL+C to quit[0m
+2025-04-28 01:19:11,441 INFO:  * Restarting with stat
+2025-04-28 01:19:13,041 WARNING:  * Debugger is active!
+2025-04-28 01:19:13,046 INFO:  * Debugger PIN: 973-031-651
+2025-04-28 01:27:06,485 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.153:5001
+2025-04-28 01:27:06,485 INFO: [33mPress CTRL+C to quit[0m
+2025-04-28 01:27:06,487 INFO:  * Restarting with stat
+2025-04-28 01:27:08,090 WARNING:  * Debugger is active!
+2025-04-28 01:27:08,093 INFO:  * Debugger PIN: 973-031-651
+2025-04-28 01:27:10,377 WARNING: ÀÉ®×¤£¦s¦b¡GUploads/1745774830_sample_data.csv
+2025-04-28 01:27:10,378 INFO: 127.0.0.1 - - [28/Apr/2025 01:27:10] "[31m[1mPOST /summarize HTTP/1.1[0m" 400 -
+2025-04-28 01:27:20,633 WARNING: ÀÉ®×¤£¦s¦b¡GUploads/1745774840_sample_data.csv
+2025-04-28 01:27:20,633 INFO: 127.0.0.1 - - [28/Apr/2025 01:27:20] "[31m[1mPOST /summarize HTTP/1.1[0m" 400 -
+2025-04-28 01:30:01,303 WARNING: ÀÉ®×¤£¦s¦b¡GUploads/1745775001_sample_data.csv
+2025-04-28 01:30:01,303 INFO: 127.0.0.1 - - [28/Apr/2025 01:30:01] "[31m[1mPOST /summarize HTTP/1.1[0m" 400 -
+2025-04-28 01:33:44,632 WARNING: ÀÉ®×¤£¦s¦b¡GUploads/1745775224_sample_data.csv
+2025-04-28 01:33:44,632 INFO: 127.0.0.1 - - [28/Apr/2025 01:33:44] "[31m[1mPOST /summarize HTTP/1.1[0m" 400 -
+2025-04-28 01:38:33,334 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.153:5001
+2025-04-28 01:38:33,335 INFO: [33mPress CTRL+C to quit[0m
+2025-04-28 01:38:33,336 INFO:  * Restarting with stat
+2025-04-28 01:38:34,916 WARNING:  * Debugger is active!
+2025-04-28 01:38:34,919 INFO:  * Debugger PIN: 973-031-651
+2025-04-28 01:39:05,672 INFO: ¦¬¨ì¤å¥ó¸ô®|: C:\wamp64\www\server\Uploads\1745775545_sample_data.csv
+2025-04-28 01:39:05,674 INFO: ¤wÅª¨ú CSV ÀÉ®×¡A¦æ¼Æ¡G20
+2025-04-28 01:39:05,679 INFO: ÀË¬d¯Ê¥¢­È¡G
+¦~»P©u                0
+°Ï°ì                 0
+Á`­p                 0
+Year               0
+Quarter            0
+Freight_Tonnage    0
+dtype: int64
+2025-04-28 01:39:05,691 INFO: ¼Ò«¬§¡¤è»~®t (MSE)¡G20481.38
+2025-04-28 01:39:05,691 INFO: ¼Æ¾Ú³B²z¦¨¥\
+2025-04-28 01:39:05,691 INFO: 127.0.0.1 - - [28/Apr/2025 01:39:05] "POST /summarize HTTP/1.1" 200 -
+2025-04-28 01:48:50,778 INFO: ¦¬¨ì¤å¥ó¸ô®|: C:\wamp64\www\server\Uploads\1745776130_sample_data.csv
+2025-04-28 01:48:50,780 INFO: ¤wÅª¨ú CSV ÀÉ®×¡A¦æ¼Æ¡G20
+2025-04-28 01:48:50,783 INFO: ÀË¬d¯Ê¥¢­È¡G
+¦~»P©u                0
+°Ï°ì                 0
+Á`­p                 0
+Year               0
+Quarter            0
+Freight_Tonnage    0
+dtype: int64
+2025-04-28 01:48:50,792 INFO: ¼Ò«¬§¡¤è»~®t (MSE)¡G20481.38
+2025-04-28 01:48:50,793 INFO: ¼Æ¾Ú³B²z¦¨¥\
+2025-04-28 01:48:50,793 INFO: 127.0.0.1 - - [28/Apr/2025 01:48:50] "POST /summarize HTTP/1.1" 200 -
+2025-04-28 02:00:22,571 INFO: ¦¬¨ì¤å¥ó¸ô®|: C:\wamp64\www\server\Uploads\1745776822_sample_data.csv
+2025-04-28 02:00:22,573 INFO: ¤wÅª¨ú CSV ÀÉ®×¡A¦æ¼Æ¡G20
+2025-04-28 02:00:22,575 INFO: ÀË¬d¯Ê¥¢­È¡G
+¦~»P©u                0
+°Ï°ì                 0
+Á`­p                 0
+Year               0
+Quarter            0
+Freight_Tonnage    0
+dtype: int64
+2025-04-28 02:00:22,583 INFO: ¼Ò«¬§¡¤è»~®t (MSE)¡G20481.38
+2025-04-28 02:00:22,583 INFO: ¼Æ¾Ú³B²z¦¨¥\
+2025-04-28 02:00:22,583 INFO: 127.0.0.1 - - [28/Apr/2025 02:00:22] "POST /summarize HTTP/1.1" 200 -
+2025-04-28 02:11:28,828 INFO: ¦¬¨ì¤å¥ó¸ô®|: C:\wamp64\www\server\Uploads\1745777488_sample_data.csv
+2025-04-28 02:11:28,830 INFO: ¤wÅª¨ú CSV ÀÉ®×¡A¦æ¼Æ¡G20
+2025-04-28 02:11:28,832 INFO: ÀË¬d¯Ê¥¢­È¡G
+¦~»P©u                0
+°Ï°ì                 0
+Á`­p                 0
+Year               0
+Quarter            0
+Freight_Tonnage    0
+dtype: int64
+2025-04-28 02:11:28,840 INFO: ¼Ò«¬§¡¤è»~®t (MSE)¡G20481.38
+2025-04-28 02:11:28,840 INFO: ¼Æ¾Ú³B²z¦¨¥\
+2025-04-28 02:11:28,840 INFO: 127.0.0.1 - - [28/Apr/2025 02:11:28] "POST /summarize HTTP/1.1" 200 -
+2025-04-28 02:40:09,641 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.153:5001
+2025-04-28 02:40:09,641 INFO: [33mPress CTRL+C to quit[0m
+2025-04-28 02:40:09,643 INFO:  * Restarting with stat
+2025-04-28 02:40:11,290 WARNING:  * Debugger is active!
+2025-04-28 02:40:11,294 INFO:  * Debugger PIN: 973-031-651
+2025-04-28 10:24:32,010 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.153:5001
+2025-04-28 10:24:32,011 INFO: [33mPress CTRL+C to quit[0m
+2025-04-28 10:24:32,012 INFO:  * Restarting with stat
+2025-04-28 10:24:33,488 WARNING:  * Debugger is active!
+2025-04-28 10:24:33,492 INFO:  * Debugger PIN: 973-031-651
+2025-05-01 05:27:19,009 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.153:5001
+2025-05-01 05:27:19,010 INFO: [33mPress CTRL+C to quit[0m
+2025-05-01 05:27:19,011 INFO:  * Restarting with stat
+2025-05-01 05:27:20,604 WARNING:  * Debugger is active!
+2025-05-01 05:27:20,608 INFO:  * Debugger PIN: 973-031-651
+2025-05-01 05:28:38,127 INFO: ¦¬¨ì¤å¥ó¸ô®|: C:\wamp64\www\server\Uploads\1746048517_sample_data.csv
+2025-05-01 05:28:38,133 INFO: ¤wÅª¨ú CSV ÀÉ®×¡A¦æ¼Æ¡G20
+2025-05-01 05:28:38,142 INFO: ÀË¬d¯Ê¥¢­È¡G
+¦~»P©u                0
+°Ï°ì                 0
+Á`­p                 0
+Year               0
+Quarter            0
+Freight_Tonnage    0
+dtype: int64
+2025-05-01 05:28:38,160 INFO: ¼Ò«¬§¡¤è»~®t (MSE)¡G20481.38
+2025-05-01 05:28:38,160 INFO: ¼Æ¾Ú³B²z¦¨¥\
+2025-05-01 05:28:38,161 INFO: 127.0.0.1 - - [01/May/2025 05:28:38] "POST /summarize HTTP/1.1" 200 -
+2025-05-09 01:03:39,751 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.153:5001
+2025-05-09 01:03:39,751 INFO: [33mPress CTRL+C to quit[0m
+2025-05-09 01:03:39,753 INFO:  * Restarting with stat
+2025-05-09 01:03:41,570 WARNING:  * Debugger is active!
+2025-05-09 01:03:41,574 INFO:  * Debugger PIN: 973-031-651
