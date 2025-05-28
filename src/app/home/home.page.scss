@@ -1,0 +1,81 @@
+// 全局樣式：設置頁面背景和字體
+ion-content {
+  --background: #ffffff; 
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+  padding: 16px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+// 頂部導航欄：簡潔白色風格
+ion-header ion-toolbar {
+  --background: #ffffff; 
+  --color: #333333; 
+  --border-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+}
+
+ion-title {
+  font-size: 20px;
+  font-weight: 600; 
+  color: #1a1a1a; 
+  text-align: center; 
+}
+
+// 主標題：現代化大標題
+h1 {
+  font-size: 28px; 
+  font-weight: 700; 
+  color: #1a1a1a; 
+  margin: 16px 0; 
+  text-align: center; 
+}
+
+// 圖標：圓形且適中大小
+img.size {
+  display: block;
+  margin: 16px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  &:hover {
+    transform: scale(1.05); 
+  }
+}
+
+// 啟動按鈕：現代化圓形按鈕
+ion-button.start {
+  --background: #3880ff; 
+  --color: #ffffff; 
+  --border-radius: 12px; 
+  --padding-start: 24px; 
+  --padding-end: 24px;
+  margin: 16px; 
+  height: 48px; 
+  font-size: 16px; 
+  font-weight: 600; 
+  text-transform: none; 
+  box-shadow: 0 4px 8px rgba(56, 128, 255, 0.3); 
+  transition: all 0.2s ease; 
+  &:hover {
+    --background: #326ee6; 
+    box-shadow: 0 6px 12px rgba(56, 128, 255, 0.4); 
+  }
+}
+
+// 按鈕內文字：確保文字居中
+.start_word {
+  font-size: 16px; 
+  font-weight: 600; 
+  color: #ffffff; 
+}
+
+// 移除 <br> 標籤的影響，改用 CSS 控制間距
+br {
+  display: none; // 移除 <br>，使用 margin 控制間距
+}

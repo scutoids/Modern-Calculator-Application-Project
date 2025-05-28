@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="page3"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Scutoids Calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title size="large">Calculator history</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- create a button give user can clear History data -->
+  <ion-button id="Clear" (click)="clearHistory()" expand="block" class="clear-history-button" >清除歷史記錄</ion-button>
+  <ion-toast trigger="Clear" message="計算器歷史記錄已清除" [duration]="5000"></ion-toast>
+  <h1>Calculator History</h1>
+  <!-- create a *ngFor get Calculator history from service history data -->
+  <ion-list>  
+    <ion-item *ngFor="let entry of history"> 
+      {{ entry }} 
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,122 @@
+// 全局樣式：設置頁面背景和字體
+ion-content {
+    --background: #ffffff; 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+  }
+  
+  // 頂部導航欄：簡潔白色風格
+  ion-header ion-toolbar {
+    --background: #ffffff; 
+    --color: #333333; 
+    --border-color: transparent; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+  }
+  
+  // 內嵌標題區域：大標題樣式
+  ion-header .ion-toolbar {
+    --background: transparent; 
+    padding: 16px; 
+  }
+  
+  ion-title[size="large"] {
+    font-size: 28px; 
+    font-weight: 700; 
+    color: #1a1a1a; 
+    text-align: center; 
+  }
+  
+  // 表單區域：現代化輸入框設計
+  ion-list {
+    padding: 16px; 
+    background: #ffffff;
+    border-radius: 12px;
+    margin: 16px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  }
+  
+  ion-item {
+    --background: #f8f9fa; 
+    --border-color: transparent; 
+    border-radius: 8px; 
+    margin-bottom: 12px; 
+    transition: all 0.2s ease; 
+  
+    &:hover {
+      --background: #e9ecef; 
+    }
+  }
+  
+  ion-label {
+    font-size: 14px; 
+    font-weight: 500; 
+    color: #495057; 
+    margin-bottom: 4px; 
+  }
+  
+  ion-input, ion-select {
+    --padding-start: 12px; 
+    --padding-end: 12px;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    font-size: 16px; 
+    color: #212529; 
+    background: #ffffff; 
+    border: 1px solid #dee2e6; 
+    border-radius: 6px; 
+    transition: border-color 0.2s ease;
+  
+    &:focus {
+      border-color: #3880ff; 
+      box-shadow: 0 0 0 2px rgba(56, 128, 255, 0.2); 
+    }
+  }
+  
+  ion-select {
+    --placeholder-color: #868e96; 
+    --placeholder-opacity: 1;
+  }
+  
+  // 提交按鈕：現代化圓形按鈕
+  ion-button {
+    --background: #3880ff; 
+    --color: #ffffff; 
+    --border-radius: 12px; 
+    --padding-start: 24px; 
+    --padding-end: 24px;
+    margin: 16px; 
+    height: 48px; 
+    font-size: 16px; 
+    font-weight: 600; 
+    text-transform: none; 
+    box-shadow: 0 4px 8px rgba(56, 128, 255, 0.3); 
+    transition: all 0.2s ease;
+  
+    &:hover {
+      --background: #326ee6; 
+      box-shadow: 0 6px 12px rgba(56, 128, 255, 0.4); 
+    }
+  }
+  
+  // 提示訊息：現代化風格
+  ion-toast {
+    --background: #ffffff; 
+    --color: #1a1a1a; 
+    --border-radius: 8px; 
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    font-size: 14px; 
+    font-weight: 500; 
+  }
+  
+  // 頁面底部：簡潔版權資訊
+  ion-footer {
+    text-align: center; 
+    padding: 16px;
+    background: #ffffff; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05); 
+  }
+  
+  ion-footer p {
+    font-size: 12px; 
+    color: #868e96; 
+    margin: 0; 
+  }

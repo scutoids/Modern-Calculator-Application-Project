@@ -1,0 +1,57 @@
+<!-- 頁面頂部導航欄 -->
+<ion-header>
+  <ion-toolbar>
+    <!-- 左側返回按鈕，預設返回 page3 -->
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="page3"></ion-back-button>
+    </ion-buttons>
+    <!-- 頁面標題 -->
+    <ion-title>Scutoids Calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- 頁面主內容區域 -->
+<ion-content>
+  <!-- 內嵌標題區域 -->
+  <ion-header>
+    <ion-toolbar>
+      <!-- 顯示大標題：應用報告 -->
+      <ion-title size="large">應用報告</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- 表單區域 -->
+  <ion-list>
+    <!-- 問題標題輸入框，使用雙向數據綁定 -->
+    <ion-item>
+      <ion-label position="stacked">問題標題</ion-label>
+      <ion-input [(ngModel)]="problemTitle" placeholder="請輸入問題標題"></ion-input>
+    </ion-item>
+    <!-- 問題描述輸入框，使用雙向數據綁定 -->
+    <ion-item>
+      <ion-label position="stacked">問題是什麼</ion-label>
+      <ion-input [(ngModel)]="problem" placeholder="請輸入問題是什麼"></ion-input>
+    </ion-item>
+    <!-- 問題類型選擇框，使用雙向數據綁定 -->
+    <ion-item>
+      <ion-label position="stacked">問題類型</ion-label>
+      <ion-select [(ngModel)]="problemType" interface="popover">
+        <ion-select-option value="Calculator">歷史錯誤</ion-select-option>
+        <ion-select-option value="Data Error">計算誤差</ion-select-option>
+        <ion-select-option value="Other">其他</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <br>
+  <!-- 提交按鈕，點擊時觸發 report 方法 -->
+  <ion-button id="report" shape="round" expand="block" (click)="report()">Submit</ion-button>
+  <!-- 提示訊息，提交成功時顯示，持續 1 秒 -->
+  <ion-toast trigger="report" message="您的報告已發送，感謝您的回饋" [duration]="1000"></ion-toast>
+
+  <br>
+  <!-- 頁面底部，顯示版權資訊 -->
+  <ion-footer>
+    <p>© 2025 Scutoids</p>
+  </ion-footer>
+</ion-content>

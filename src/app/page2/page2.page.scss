@@ -1,0 +1,40 @@
+.calculator { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
+    .display { 
+      font-size: 2rem;
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: right;
+      padding: 10px;
+      background: white;
+      border: 1px solid #ccc;
+    }
+  
+    .buttons { 
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      // set button height, font size
+      ion-button {
+        height: 50px;
+        font-size: 1.5rem;
+      }
+      
+      
+      .operator {
+        --ion-color-primary: #ffcc00;
+        color: white;
+      }
+  
+      .operator:hover {
+        --ion-color-primary: #ff9900;
+      }
+    }
+    
+   
+}

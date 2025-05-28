@@ -1,0 +1,41 @@
+// 全局樣式：設置頁面背景和字體
+ion-content {
+  --background: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+  padding: 16px; 
+}
+
+// 頂部導航欄：簡潔白色風格
+ion-header ion-toolbar {
+  --background: #ffffff; 
+  --color: #333333; 
+  --border-color: transparent; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+}
+
+ion-title {
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #1a1a1a; 
+}
+
+// GeoGebra 容器：現代化圓角畫布
+.ggb-container {
+  background: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  margin: 16px auto; 
+  max-width: 480px; 
+  height: 1000px; 
+  overflow: hidden; 
+  transition: box-shadow 0.2s ease; 
+  &:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); 
+  }
+}
+
+// 確保 GeoGebra 內部元素適應容器
+#ggb-element {
+  width: 100%; 
+  height: 100%; 
+}

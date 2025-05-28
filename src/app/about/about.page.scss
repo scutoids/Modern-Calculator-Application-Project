@@ -1,0 +1,60 @@
+.about-page { 
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.about-page .header { 
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.about-page .header h1 { 
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-page .content { 
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-page .content p { 
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about-page .content .app-info { 
+  margin-bottom: 20px;
+}
+
+.about-page .content .app-info h2 { 
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-page .content .app-info p { 
+  font-size: 14px;
+  color: #999;
+}
+
+.about-page .footer { 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-page .footer p { 
+  font-size: 14px;
+  color: #999;
+}
+
+#mapId { 
+  width: 400px;
+  height: 300px;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Scuotids calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div *ngIf="Updatedisplay.length>0"> Update content </div>
+    <div *ngIf="Updatedisplay.length==0"> No Update </div>
+    <div *ngIf="Updatedisplay.length>0"> <br> </div>
+    <ion-item *ngFor="let item of Updatedisplay">
+      <ion-label>
+        <h1>{{item.version}}</h1>
+        <p>{{item.content}}</p>
+      </ion-label>
+    </ion-item>
+</ion-content> 

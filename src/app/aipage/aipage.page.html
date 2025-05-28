@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-title>Scutoids Calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <h1>Scutoids Calculator</h1>
+    <img src="assets/icon/icon.png" class="size" alt="Calculator Icon" />
+  </div>
+
+  <div class="chat-container">
+    <div *ngFor="let message of messages" class="message" [ngClass]="message.role === 'user' ? 'user-message' : 'assistant-message'">
+      <strong>{{ message.role === 'user' ? '您:' : 'Mistral AI:' }}</strong> {{ message.content }}
+    </div>
+  </div>
+
+  <div class="input-container">
+    <ion-select
+      #modeSelect
+      [(ngModel)]="selectedMode"
+      (ionChange)="onModeChange()"
+      placeholder="選擇模式"
+      interface="popover"
+    >
+      <ion-select-option *ngFor="let mode of availableModes" [value]="mode.value">
+        {{ mode.label }}
+      </ion-select-option>
+    </ion-select>
+
+    <ion-input
+      [(ngModel)]="messageInput"
+      class="input-message"
+      placeholder="輸入數學問題..."
+      (ionInput)="onInputChange()"
+      [disabled]="isLoading || selectedMode === 'data_processing'"
+    ></ion-input>
+
+    <ion-button
+      class="send-button"
+      (click)="onSendMessage()"
+      [disabled]="!messageInput.trim() || isLoading || selectedMode === 'data_processing'"
+    >
+      <ion-icon name="send"></ion-icon>
+    </ion-button>
+
+    <ion-button
+      class="upload-button"
+      (click)="fileInput.click()"
+      [disabled]="isLoading || selectedMode !== 'data_processing'"
+    >
+      <ion-icon name="cloud-upload"></ion-icon>
+    </ion-button>
+
+    <ion-button class="clear-button" (click)="onClearChat()" [disabled]="isLoading || !messages.length">
+      <ion-icon name="trash"></ion-icon>
+    </ion-button>
+
+    <input type="file" #fileInput style="display: none" accept=".csv" (change)="onFileSelected($event)" />
+
+    <ion-spinner *ngIf="isLoading"></ion-spinner>
+  </div>
+</ion-content>

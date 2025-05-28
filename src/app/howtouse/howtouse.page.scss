@@ -1,0 +1,74 @@
+// 全局樣式：設置頁面背景和字體
+ion-content {
+    --background: #ffffff; 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+    padding: 16px; 
+  }
+  
+  // 頂部導航欄：簡潔白色風格
+  ion-header ion-toolbar {
+    --background: #ffffff;
+    --color: #333333;
+    --border-color: transparent; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  ion-title {
+    font-size: 20px; 
+    font-weight: 600; 
+    color: #1a1a1a; 
+  }
+  
+  // 卡片樣式：現代化圓角卡片
+  ion-card {
+    background: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    margin: 16px 0; // 上下外邊距
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  
+    &:hover {
+      transform: translateY(-4px); 
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); 
+    }
+  }
+  
+  // 卡片圖片：適應卡片寬度並添加圓角
+  ion-card img {
+    width: 100%; 
+    height: 160px; 
+    object-fit: cover; 
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;
+  }
+  
+  // 卡片標題區域：簡潔排版
+  ion-card-header {
+    padding: 16px; 
+  }
+  
+  ion-card-title {
+    font-size: 18px;
+    font-weight: 600; 
+    color: #1a1a1a; 
+    margin-bottom: 4px; 
+  }
+  
+  ion-card-subtitle {
+    font-size: 14px;
+    font-weight: 400; 
+    color: #495057; 
+  }
+  
+  // 卡片內容：清晰易讀
+  ion-card-content {
+    font-size: 14px; 
+    line-height: 1.6; 
+    color: #212529; 
+    padding: 16px; 
+  }
+  
+  // 間距調整：確保卡片之間的間隔
+  br {
+    display: none; // 移除 <br> 標籤，改用 CSS 控制間距
+  }

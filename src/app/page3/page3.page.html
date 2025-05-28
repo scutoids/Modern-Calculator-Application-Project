@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="page2"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Scutoids Calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title size="large"> 計算機選單 </ion-title> 
+    </ion-toolbar>
+  </ion-header>
+  <!-- create a ion-list to show Calculator menu usur can click the button change page History, App_report, About -->
+  <ion-list> 
+    <ion-item>
+      <ion-label (click)="History()"> 歷史 </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="howtouse()"> 如何使用 </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="App_report()"> 應用報告 </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="updatelist()"> 更新列表 </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="About()"> 關於 </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

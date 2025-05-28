@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Scutoids Calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header>
+    <div class="calculator"> <!-- set class calculator -->
+      <div class="display"> <!-- set class display -->
+        <br>
+        {{ display }} <!-- display Calculator result -->
+        <br>
+      </div>
+      <br>
+      <!-- 按鈕容器，應用 CSS 類 "buttons"，用於排列計算器按鈕 -->
+      <div class="buttons">
+        <!-- 基本計算器佈局，當 isAdvanced 為 false 時顯示 -->
+        <ng-container *ngIf="!isAdvanced">
+          <ion-button (click)="onButtonClick('7')">7</ion-button>
+          <ion-button (click)="onButtonClick('8')">8</ion-button>
+          <ion-button (click)="onButtonClick('9')">9</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('/')">/</ion-button>
+
+          <ion-button (click)="onButtonClick('4')">4</ion-button>
+          <ion-button (click)="onButtonClick('5')">5</ion-button>
+          <ion-button (click)="onButtonClick('6')">6</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('*')">*</ion-button>
+
+          <ion-button (click)="onButtonClick('1')">1</ion-button>
+          <ion-button (click)="onButtonClick('2')">2</ion-button>
+          <ion-button (click)="onButtonClick('3')">3</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('-')">-</ion-button>
+
+          <ion-button (click)="onButtonClick('C')">C</ion-button>
+          <ion-button (click)="onButtonClick('0')">0</ion-button>
+          <ion-button (click)="onButtonClick('.')">.</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('+')">+</ion-button>
+
+          <ion-button (click)="onButtonClick('Back')">
+            <ion-icon name="backspace-outline"></ion-icon>
+          </ion-button>
+          <ion-button (click)="onButtonClick('%')">%</ion-button>
+          <ion-button (click)="onButtonClick('Ans')">Ans</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('=')">=</ion-button>
+          <ion-button id="message" (click)="page3()">選單</ion-button>
+          <ion-toast trigger="message" message="計算器選單在 0.1 秒內打開" [duration]="100"></ion-toast>
+          <ion-button (click)="presentAlert()">$</ion-button>
+          <ion-button (click)="switchLayout()">f(x)</ion-button>
+          <ion-button (click)="aipage()">
+            <ion-icon name="aperture-outline"></ion-icon>
+          </ion-button>
+        </ng-container>
+
+        <!-- 進階計算器佈局，當 isAdvanced 為 true 時顯示 -->
+        <ng-container *ngIf="isAdvanced">
+          <ion-button (click)="onButtonClick('^2')">x²</ion-button>
+          <ion-button (click)="onButtonClick('^3')">x³</ion-button>
+          <ion-button (click)="onButtonClick('!')">x!</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('/')">/</ion-button>
+
+          <ion-button (click)="onButtonClick('sin(')">sin</ion-button>
+          <ion-button (click)="onButtonClick('cos(')">cos</ion-button>
+          <ion-button (click)="onButtonClick('tan(')">tan</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('*')">*</ion-button>
+
+          <ion-button (click)="onButtonClick('log(')">log</ion-button>
+          <ion-button (click)="onButtonClick('ln(')">ln</ion-button>
+          <ion-button (click)="onButtonClick('e')">e</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('-')">-</ion-button>
+
+          <ion-button (click)="onButtonClick('pi')">π</ion-button>
+          <ion-button (click)="onButtonClick('^')">^(x)</ion-button>
+          <ion-button (click)="memoryAdd()">m+</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('+')">+</ion-button>
+
+          <ion-button (click)="onButtonClick('sinh(')">sinh</ion-button>
+          <ion-button (click)="onButtonClick('cosh(')">cosh</ion-button>
+          <ion-button (click)="onButtonClick('tanh(')">tanh</ion-button>
+          <ion-button class="operator" (click)="onButtonClick('=')">=</ion-button>
+          <ion-button (click)="onButtonClick('(')">(</ion-button>
+          <ion-button (click)="onButtonClick(')')">)</ion-button>
+          <ion-button  (click)="onButtonClick('^1/2')">√</ion-button>
+          <ion-button (click)="aipage()">
+            <ion-icon name="aperture-outline"></ion-icon>
+          </ion-button>
+          <ion-button (click)="switchLayout()">Basic</ion-button>
+          <ion-button (click)="memoryRecall()">MR</ion-button>
+          <ion-button (click)="memoryClear()">MC</ion-button>
+          <ion-button (click)="math()">2D</ion-button>
+        </ng-container>
+      </div>
+    </div>
+    <ion-footer>
+      <p>© 2025 Scutoids</p> <!-- set copyright -->
+    </ion-footer>
+  </ion-header>
+</ion-content>
