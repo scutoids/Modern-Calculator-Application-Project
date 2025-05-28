@@ -15,4 +15,4 @@ This project is a school project of Hong Kong College of Technology from March t
 - User feedback storage: Store user-submitted feedback in the MySQL database.
 
 ## Exhibit
-- **[Demo Video](https://youtube.com/yourvideo)**
+- **[螢幕截圖](screenshot.png)**
