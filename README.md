@@ -1,4 +1,4 @@
-# Modern Calculator Application V3.0
+# Modern Calculator Application (Scutoids Calculator V3.0)
 
 ## Describe
 This is a personal Project of Hong Kong College of Technology from March to April 2025. Because Project Students are free to develop applications, Therefore I decided to develop a modern calculator application that allows users to perform numerical calculations, solve application problems and analyze data. The application combines front-end technologies (Ionic and Angular) with back-end technologies (PHP, MySQL and Python), integrates Mistral AI API to realize application calculation and data analysis functions, and uses MySQL to store user feedback, successfully demonstrated full-end development capabilities.
