@@ -14,6 +14,21 @@ This is a personal project for Hong Kong College of Technology in March-April 20
 - Data analysis: Use Python to perform data acquisition and data cleaning and use linear regression to predict data
 - User feedback storage: Store user-submitted feedback in the MySQL database.
 
+## Version
+There are three versions of this app: 1.0, 2.0, and 3.0. Why so many versions? Because this app is a school project and I spent a lot of time thinking about what features it should have. Once I decided on the features, I added them to the app. I decided to split it into multiple versions and add new features I thought of in each version, so that I can incorporate my ideas into the app. This app is not perfect yet, and I will continue to add new features in the future.
+
+- Version 1.0
+This is an initial version.
+ 
+- Version 2.0
+  
+Support history record, users can view their personal calculation history.
+Optimized the UI interface.
+- Version 3.0
+
+Added AI page
+Added How to use pagd
+
 ## Exhibit
 - **[HomePage](HomePage.png)**
 - **[Basic calculation](BasicCompute.png)**
