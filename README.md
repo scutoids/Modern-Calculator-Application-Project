@@ -32,7 +32,3 @@ This project is currently a school project, mainly used to demonstrate my full-s
 ## License
 This project uses the MIT license, see [LICENSE.md](LICENSE.md) for details.
 
-## Contact
-If you have any questions or would like to collaborate, please contact me:
-- Email: fungshing000@gmail.com
-  
