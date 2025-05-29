@@ -30,5 +30,5 @@ This project is currently a school project, mainly used to demonstrate my full-s
 **Note**: As this project is for demonstration purposes, the installation steps have been removed, please refer to the screenshots or contact me for more details.
 
 ## License
-This project uses the MIT license, see [LICENSE.md](LICENSE.md) for details.
+This project uses the MIT license, see [LICENSE.md](LICENSE) for details.
   
