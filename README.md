@@ -15,7 +15,7 @@ This is a personal project for Hong Kong College of Technology in March-April 20
 - User feedback storage: Store user-submitted feedback in the MySQL database.
 
 ## Version
-There are three versions of this app: 1.0, 2.0, and 3.0. Why so many versions? Because this app is a school project and I spent a lot of time thinking about what features it should have. Once I decided on the features, I added them to the app. I decided to split it into multiple versions and add new features I thought of in each version, so that I can incorporate my ideas into the app. This app is not perfect yet, and I will continue to add new features in the future.
+There are three versions of this app: 1.0, 2.0, and 3.0. Why so many versions? Because this app is a school project, I spent a lot of time thinking about what features it should have, or which features need more time to design. Once I decided or completed the features, I added them to the app. I decided to split it into multiple versions, adding new features that I thought of in each version, so that I can incorporate my ideas into the app.
 
 - Version 1.0
 
