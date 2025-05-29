@@ -5,7 +5,7 @@ This project is a school project of Hong Kong College of Technology from March t
 
 ## Technology used
 - **front end**: Ionic Framework, Angular, HTML5, CSS, JavaScript
-- **rear end**: PHP, MySQL, WampServer
+- **rear end**: PHP, MySQL, WampServer, Python
 - **AI Integration**: Mistral AI API
 
 ## Functions
