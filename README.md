@@ -28,4 +28,7 @@ This project is currently a school project, mainly used to demonstrate my full-s
 **Submit a suggestion** If you have feature suggestions or find issues, please submit them on the [Issues page](https://github.com/scutoids/Modern-Calculator-Application-Project/issues).
 
 **Note**: As this project is for demonstration purposes, the installation steps have been removed, please refer to the screenshots or contact me for more details.
+
+## License
+This project uses the MIT license, see [LICENSE.md](LICENSE.md) for details.
   
