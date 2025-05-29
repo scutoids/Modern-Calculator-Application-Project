@@ -1,4 +1,4 @@
-![PythonData](https://github.com/user-attachments/assets/c3fc30a0-873a-47e2-8d65-d932b84c4a99)# Modern Calculator Application
+# Modern Calculator Application
 
 ## Describe
 This project is a school project of Hong Kong College of Technology from March to April 2025. Students are free to develop applications, so I decided to develop a modern calculator application that allows users to perform numerical calculations, solve application problems and analyze data. The application combines front-end technologies (Ionic and Angular) with back-end technologies (PHP, MySQL and Python), integrates Mistral AI API to realize application calculation and data analysis functions, and uses MySQL to store user feedback, successfully demonstrating full-end development capabilities.
