@@ -47,32 +47,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'ask_ai') {
 
     error_log("處理數學問題: $message");
 
-    // 檢查是否為數學問題
-    $mathKeywords = ['+', '-', '*', '/', '=', '計算', '速度', '距離', '時間', '平均', '概率', '統計', '方程', '幾何', '代數'];
-    $isMathQuestion = false;
-    foreach ($mathKeywords as $keyword) {
-        if (stripos($message, $keyword) !== false) {
-            $isMathQuestion = true;
-            break;
-        }
-    }
-
-    if (!$isMathQuestion) {
-        error_log("非數學問題: $message");
-        echo json_encode([
-            'status' => 'success',
-            'choices' => [[
-                'message' => ['content' => '抱歉，我只能回答數學、統計或數據分析相關的問題。請試試一個數學問題！']
-            ]]
-        ]);
-        exit;
-    }
-
-    // 改進提示，要求簡潔純文字
-    $prompt = "你是一個專注於數學和數據分析的 AI 助手。請用簡潔的純文字回答以下數學、統計或數據分析問題，避免使用 LaTeX、Markdown 或冗長解釋。問題：$message";
+    
+    $prompt = "你是一個專注於數學和數據分析的 AI 助手。請用簡潔的純文字回答以下數學、統計或數據分析問題，避免使用 LaTeX、Markdown 或冗長解釋以及不要回答數學以外的問題假如得到用戶不是詢問數學的問題請有禮貌的語氣回復用戶請用戶回答數學的問題。問題：$message";
     $apiResponse = callMistralAI($prompt);
     echo json_encode($apiResponse);
     exit;
+}
 }
 
 // 處理文件上傳
