@@ -24,6 +24,6 @@ This is a personal Project of Hong Kong College of Technology from March to Apri
 
 ## Contributing
 This project is currently a school project, mainly used to demonstrate my full-stack development capabilities. Suggestions or feedback are welcome to improve the project!
-**Submit a suggestion** If you have feature suggestions or find issues, please submit them on the [Issues page](https://github.com/scutoids/modern-calculator/issues).
+**Submit a suggestion** If you have feature suggestions or find issues, please submit them on the [Issues page](https://github.com/scutoids/Modern-Calculator-Application-Project/issues).
 **Note**: As this project is for demonstration purposes, the installation steps have been removed, please refer to the screenshots or contact me for more details.
   
