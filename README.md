@@ -24,6 +24,7 @@ This is an initial version.
 - Version 2.0
   
 Support history record, users can view their personal calculation history.
+
 Optimized the UI interface.
 
 - Version 3.0
