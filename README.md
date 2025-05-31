@@ -29,7 +29,8 @@ Optimized the UI interface.
 - Version 3.0
 
 Added AI page
-Added How to use pagd
+
+Added How to use page
 
 ## Exhibit
 - **[HomePage](HomePage.png)**
